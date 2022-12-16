@@ -4,6 +4,7 @@ import logoTop from "../Images/logo.png";
 export default function Navbar() {
   return (
     <>
+      {/* eslint-disable */}
       <nav
         className="navbar-1-1 navbar navbar-expand-lg navbar-light p-4 px-md-4 mb-3 bg-body"
         style={{ fontFamily: "Poppins, sans-serif" }}
