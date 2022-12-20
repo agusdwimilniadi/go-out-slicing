@@ -86,3 +86,27 @@
   top: 17rem;
   left: 2.5rem;
 }
+#destination {
+  height: 100vh;
+}
+.card-destination {
+  box-shadow: 0px 14px 25px #f2f2f2;
+  border-radius: 24px;
+}
+.btn-primary-destination {
+  background-color: #3258e8;
+  color: white;
+  border-radius: 12px;
+  bottom: 25px;
+  right: 25px;
+}
+.btn-primary-destination:hover {
+  background-color: pink;
+}
+.rating {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  top: 25px;
+  right: 25px;
+  border-radius: 25px;
+}

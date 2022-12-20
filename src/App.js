@@ -1,4 +1,5 @@
 import "./App.css";
+import Destination from "./Components/Destination";
 import Jumbotron from "./Components/Jumbotron";
 import Packages from "./Components/Packages";
 import Services from "./Components/Services";
@@ -10,6 +11,7 @@ function App() {
       <Jumbotron />
       <Services />
       <Packages />
+      <Destination />
     </>
   );
 }

@@ -2,7 +2,6 @@ import React from "react";
 import iconService1 from "../Images/icon-services-1.png";
 
 export default function ServicesComponents(props) {
-  console.log("INI ISI PROPS ", props);
   return (
     <>
       <div className="col-md-6 mt-5">

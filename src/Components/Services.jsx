@@ -35,7 +35,11 @@ export default function Services() {
               <div className="row">
                 {data.map((item) => {
                   return (
-                    <ServicesComponents desc={item.desc} title={item.title} />
+                    <ServicesComponents
+                      key={item.title}
+                      desc={item.desc}
+                      title={item.title}
+                    />
                   );
                 })}
               </div>

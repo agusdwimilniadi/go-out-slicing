@@ -9,7 +9,7 @@ import pinLocation from "../Images/pin-location.png";
 export default function Jumbotron() {
   return (
     <>
-      <section id="jumbotron" clas>
+      <section id="jumbotron">
         <div className="container">
           <div className="row bg-row p-4 d-flex justify-content-center align-items-center">
             <div className="col-md-6">
@@ -143,7 +143,7 @@ export default function Jumbotron() {
                       <div className="col-3">
                         <div className="d-grid">
                           <button className="btn btn-primary py-2 fw-bold">
-                            <i class="fa fa-search"></i> Flight
+                            <i className="fa fa-search"></i> Flight
                           </button>
                         </div>
                       </div>
@@ -211,7 +211,7 @@ export default function Jumbotron() {
                       <div className="col-md-2">
                         <div className="d-grid">
                           <button className="btn btn-primary py-2 fw-bold">
-                            <i class="fa fa-search"></i> Book
+                            <i className="fa fa-search"></i> Book
                           </button>
                         </div>
                       </div>
