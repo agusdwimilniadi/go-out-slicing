@@ -1,5 +1,6 @@
 import "./App.css";
 import Destination from "./Components/Destination";
+import Discount from "./Components/Discount";
 import Jumbotron from "./Components/Jumbotron";
 import Packages from "./Components/Packages";
 import Services from "./Components/Services";
@@ -12,6 +13,7 @@ function App() {
       <Services />
       <Packages />
       <Destination />
+      <Discount />
     </>
   );
 }

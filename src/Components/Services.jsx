@@ -20,6 +20,7 @@ export default function Services() {
       desc: "A new way to travel by air the easy and fast way.",
     },
   ];
+
   return (
     <>
       <section id="services">

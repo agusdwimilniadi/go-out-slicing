@@ -53,6 +53,9 @@ export default function Destination() {
                 />
               );
             })}
+            <div className="col-md-12 text-center mt-5">
+              <button className="btn btn-outline-secondary">View More</button>
+            </div>
           </div>
         </div>
       </section>

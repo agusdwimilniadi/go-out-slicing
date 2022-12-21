@@ -87,7 +87,7 @@
   left: 2.5rem;
 }
 #destination {
-  height: 100vh;
+  height: auto;
 }
 .card-destination {
   box-shadow: 0px 14px 25px #f2f2f2;
@@ -109,4 +109,35 @@
   top: 25px;
   right: 25px;
   border-radius: 25px;
+}
+#discount {
+  height: auto;
+}
+
+.bg-discount {
+  height: 50vh;
+  background-color: #ccd1e1df;
+  border-radius: 100px 25px 25px 25px;
+}
+
+.content-discount h5 {
+  z-index: 99 !important;
+}
+
+.love {
+  padding: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  transform: rotate(20deg);
+}
+.box-thankyou {
+  background-color: white;
+  padding: 30px;
+  width: 15rem;
+  border-radius: 30px;
+  bottom: -25px;
+  left: -25px;
 }
